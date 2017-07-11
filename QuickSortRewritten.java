@@ -29,7 +29,6 @@ public class QuickSort {
 		}
 	}
 	//Partitioning algorithm
-	// Please please please do subtract the endpoint from the previous pivot 
 	public int partitioning(int[] randomArray, int j, int pivot) {
 		int i = j - 1;
 		System.out.println("Pivot is " + randomArray[pivot]);
