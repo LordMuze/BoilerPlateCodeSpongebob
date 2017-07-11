@@ -57,11 +57,11 @@ public class QuickSort {
 		//Partitioning 
 		pivot = partitioning(randomArray, j, pivot - 1);
 		//left sort
-		if(pivot - 1 - j > 1) {
+		if(pivot - 1 - j > 0) {
 			quickSort(randomArray, j, pivot);
 		}
 		//right sort
-		if(prevPivot - 1 - (pivot + 1) > 1) {
+		if(prevPivot - 1 - (pivot + 1) > 0) {
 			quickSort(randomArray, pivot + 1, prevPivot);
 		}
 	}
